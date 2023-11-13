@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: aquamarine;
 }
 
 .App-logo {
@@ -14,18 +17,18 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: aquamarine;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: aquamarine;
 }
 
 .App-link {
-  color: #61dafb;
+  color: aquamarine;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +38,23 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+img {
+  max-width: 50%;
+}
+
+body {
+  background-color: aquamarine;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sculpture {
+  background-color: aquamarine;
+}
+
+.sculptureList {
+  background-color: aquamarine;
 }
